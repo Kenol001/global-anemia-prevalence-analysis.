@@ -1,2 +1,97 @@
 # global-anemia-prevalence-analysis.
 Analysis of global anaemia prevalence among women of reproductive age using WHO public health datasets in R. This project includes data cleaning, exploratory data analysis, statistical testing, and visualization of anaemia trends across pregnancy status, regions, and years.
+
+Objectives
+
+
+Compare anaemia prevalence between pregnant and non-pregnant women.
+Analyze regional differences.
+Examine trends across years.
+Dataset
+
+
+Source: WHO dataset. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-anaemia-in-pregnant-women-(-)
+
+
+
+Tools Used
+
+R
+tidyverse.
+ggplot2.
+dplyr.
+
+Analysis Performed
+
+Data cleaning.
+Missing value checks.
+Exploratory data analysis.
+ANOVA.
+Trend analysis.
+
+Visualization.
+Anemia prevalence across different regions.
+<img width="872" height="587" alt="08 prevalance_across_region_barchart" src="https://github.com/user-attachments/assets/9efdb1c5-3334-4c5c-b74a-3ed42303713a" />
+Key Findings.
+
+
+Pregnant women showed higher anaemia prevalence.
+Africa had higher prevalence than Europe.
+Some regions showed declining trends over time.
+
+Visualizations
+
+
+
+Folder Structure
+
+a.data - has a snippet of data used for analysis and a link to data source.
+b.docs - has the r scripts, results and description.
+
+How to Run
+This project is implemented in R using standalone code snippets for data processing, analysis, and visualization. Each snippet is self-contained and should be executed as written in R or RStudio.
+
+1. 📥 Clone the repository
+git clone https://github.com/your-username/anaemia-analysis.git
+cd anaemia-analysis
+2. 📦 Install required packages
+
+Run this once in your R console to install all dependencies:
+
+install.packages(c(
+  "tidyverse",
+  "dplyr",
+  "ggplot2",
+  "readr",
+  "janitor",
+  "scales"
+))
+3. 📚 Load required packages
+
+Before running any analysis snippets, load the libraries:
+
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(janitor)
+library(scales)
+4. 📂 Prepare the dataset
+
+Import the dataset into R by navigating to rstudio files section then to import dataset and choose the dataset as saved in your device. This is the link.https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-anaemia-in-pregnant-women-(-) 
+
+5. ▶️ Run the analysis
+
+All code in this project is provided as independent snippets.
+
+👉 Each snippet should be:
+
+Copied exactly as written
+Run sequentially in RStudio
+Executed in order from data import → cleaning → analysis → visualization
+
+⚠️ Important Notes
+Do not modify code snippets unless necessary
+Run snippets in sequence to avoid object not found errors
+Ensure all required packages are installed and loaded before starting
+All outputs (tables/plots) are generated directly in the R environment
