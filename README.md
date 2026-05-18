@@ -17,16 +17,16 @@ Source: WHO dataset. https://www.who.int/data/gho/data/indicators/indicator-deta
 Tools Used
 
 R
-tidyverse.
-ggplot2.
+tidyverse,
+ggplot2 and 
 dplyr.
 
 Analysis Performed
 
-Data cleaning.
-Missing value checks.
-Exploratory data analysis.
-ANOVA.
+Data cleaning,
+Missing value checks,
+Exploratory data analysis,
+ANOVA , and
 Trend analysis.
 
 Visualization.
@@ -46,6 +46,7 @@ Visualizations
 Folder Structure
 
 a.data - has a snippet of data used for analysis and a link to data source.
+
 b.docs - has the r scripts, results and description.
 
 How to Run
