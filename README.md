@@ -52,7 +52,7 @@ How to Run
 This project is implemented in R using standalone code snippets for data processing, analysis, and visualization. Each snippet is self-contained and should be executed as written in R or RStudio.
 
 1. 📥 Clone the repository
-git clone https://github.com/your-username/anaemia-analysis.git
+git clone https://github.com/Kenol001/global-anemia-prevalence-analysis.
 cd anaemia-analysis
 2. 📦 Install required packages
 
