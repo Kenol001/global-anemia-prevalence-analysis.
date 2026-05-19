@@ -7,10 +7,12 @@ Objectives
 Compare anaemia prevalence between pregnant and non-pregnant women.
 Analyze regional differences.
 Examine trends across years.
+
 Dataset
 
 
 Source: WHO dataset. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-anaemia-in-pregnant-women-(-)
+A small preview of the cleaned dataset is included here. <img width="1388" height="603" alt="who_anemia_prevalence_data_preview" src="https://github.com/user-attachments/assets/9800d7d8-1f9b-4b80-97f1-a64f3c15829d" />
 
 
 
