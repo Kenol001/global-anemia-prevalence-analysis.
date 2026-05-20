@@ -10,3 +10,8 @@ Data preview:<img width="1388" height="603" alt="who_anemia_prevalence_data_prev
 
 The full dataset is publicly available at:
 https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-anaemia-in-pregnant-women-(-)
+
+Column definitions:
+
+[anaemia_column_definitions.xlsx](https://github.com/user-attachments/files/28035954/anaemia_column_definitions.xlsx)
+
