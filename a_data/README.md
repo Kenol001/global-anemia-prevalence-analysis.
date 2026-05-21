@@ -12,3 +12,4 @@ https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of
 
 Column definitions:
 
+![Anemia Column Definitions](anemia-column-definitions.PNG)
